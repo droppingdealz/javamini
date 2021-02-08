@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CourseController</servlet-name>
+  	<display-name>CourseController</display-name>
+  	<description></description>
+  	<servlet-class>com.cybage.controller.CourseController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CourseController</servlet-name>
+  	<url-pattern>/CourseController/*</url-pattern>
+  </servlet-mapping>
+</web-app>
